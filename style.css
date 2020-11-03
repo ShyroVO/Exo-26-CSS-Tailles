@@ -3,10 +3,14 @@
         color: coral;
     }
 
-    a {
+    div a {
         text-decoration: none;
         color: darkred;
-        vertical-align: top;
+        text-align: left;
+    }
+
+    a:hover {
+        cursor: pointer;
     }
 
     p {
@@ -16,7 +20,7 @@
     }
 
     .shadow p {
-        text-shadow: 2px 2px darkgray;
+        text-shadow: 1px 1px darkslategray;
     }
 
     .liste1 {
@@ -25,5 +29,12 @@
 
     .liste2 {
         font-weight: bold;
+        list-style-type: circle;
+    }
+
+    .cadre {
+        height: 300px;
+        width: 500px;
+        border: 1px solid black;
     }
 
