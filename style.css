@@ -1,0 +1,29 @@
+
+    body {
+        color: coral;
+    }
+
+    a {
+        text-decoration: none;
+        color: darkred;
+        vertical-align: top;
+    }
+
+    p {
+        margin: 15px 15px;
+        padding: 20px 20px;
+        text-indent: 4px;
+    }
+
+    .shadow p {
+        text-shadow: 2px 2px darkgray;
+    }
+
+    .liste1 {
+        font-style: italic;
+    }
+
+    .liste2 {
+        font-weight: bold;
+    }
+
